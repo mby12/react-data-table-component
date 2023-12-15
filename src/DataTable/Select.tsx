@@ -61,7 +61,7 @@ type SelectProps = {
 const Select = ({ defaultValue, onChange, ...rest }: SelectProps): JSX.Element => (
 	<SelectWrapper>
 		<SelectControl onChange={onChange} defaultValue={defaultValue} {...rest} />
-		<DropDownIcon />
+		{/* <DropDownIcon /> */}
 	</SelectWrapper>
 );
 
