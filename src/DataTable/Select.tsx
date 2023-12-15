@@ -1,6 +1,6 @@
 import * as React from 'react';
 import styled from 'styled-components';
-import DropDownIcon from '../icons/Dropdown';
+// import DropDownIcon from '../icons/Dropdown';
 
 const SelectControl = styled.select`
 	cursor: pointer;
